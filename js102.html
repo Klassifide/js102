@@ -1,0 +1,62 @@
+
+<html>
+  <body>
+    <script>
+
+    
+
+      let score = 85;
+      if (score >= 90) {
+        console.log("You received an A");
+      }
+      if (score >=80 && score <=89) {
+        console.log("You received a B");
+      }
+      if (score  >=65 && score <=79) {
+        console.log("You received a C");
+      }
+      if (score >=50 && score <=65) {
+        console.log("You received a D");
+      }
+      if (score <= 50) {
+        console.log("You received an F");
+      }
+
+    
+
+      let password = "omgascore";
+      if ((password = "omgascore")) {
+        console.log("Access Granted");
+      } else {
+        console.log("Access Denied");
+      }
+
+      
+
+      let weather = 18;
+      if (weather >= 25) {
+        console.log("You should wear shorts");
+      }
+      if (weather >=15 && weather <=25) {
+        console.log("You should wear a jumper");
+      }
+      if (weather <=15) {
+        console.log("You should wear a jacket");
+      }
+
+     
+      const date = new Date().toDateString();
+      const time = new Date().toTimeString();
+
+     const question = prompt ("Which would you like to see, the time or the date?");
+     
+     if (question == date)
+     {console.log (`Current date ={$date}`)
+    } else {
+    if (question == time) 
+    console.log (`Current time = {$time}`)}
+
+
+    </script>
+  </body>
+</html>
